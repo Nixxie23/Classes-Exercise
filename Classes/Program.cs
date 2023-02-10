@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+             var firstCar = new Car();
+            firstCar.Make = "Toyota";
+            firstCar.Model = "Camry";
+            firstCar.Year = 1996;
+            Console.WriteLine($"My first car was a {firstCar.Year} {firstCar.Make} {firstCar.Model}.");
         }
     }
 }
